@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+}
+    body{  
+    background-image:url(/image/sorenson.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    /* border-bottom: 2px solid tomato; */
+    color:whitesmoke ;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px 5px;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.nav ul li a:hover{
+    color: tomato;
+    border-bottom: 2px solid tomato;
+    border-right: 2px solid tomato;
+    border-radius: 5px;
+    
+}
+.logo span{
+    color: tomato;
+}
+/* Content */
+h1{
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+h4{
+    margin-left: 50px;
+    margin-top: 180px;
+    color: white;
+}
+p{
+    color: white;
+    margin-left: 170px;
+    
+}
+h1 span{
+    color: tomato;
+}
+.input{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+button{
+    color: white;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    background-color: tomato;
+}
+.social ul li{
+    display: inline-block;
+    margin: 50px 10px;
+    padding:2px 2px;
+} 
+.social ul li img{
+    height: 40px;
+    width: 40px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    transition: tranform .4s;
+}
+.social ul li img:hover{
+    transform: scale(1.2);
+}
